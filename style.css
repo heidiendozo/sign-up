@@ -1,0 +1,68 @@
+body {
+  background-image: url("onepiece.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background {
+  position: relative;
+  width: 470px;
+  padding: 20px;
+}
+input[type=text], input[type=password] {
+  width: calc(100% - 32px); 
+  padding: 15px;
+  margin: 5px 0 25px 0;
+  background: white;
+  border-radius: 30px;
+  border: none;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+hr {
+  border: 2px solid black;
+  width: calc(100% - 20px);
+}
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}
+.cancel {
+  background-color: red;
+}
+.cancel:hover{
+  background: rgb(199, 58, 58);
+}
+.signup:hover{
+  background: rgb(43, 115, 43);
+}
+.but {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; 
+}
+.rem {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+  margin-top: 15px;
+}
+.rem input[type=checkbox] {
+  margin-right: 10px; 
+}
+.rem label {
+  margin: 0; 
+}
+
+
+
